@@ -1,12 +1,22 @@
-class Phone:
+class BacteriaProducer:
+    # Допишите инициализатор класса 
+    def __init__(self, ...):
+        ...
 
-    line_type = 'проводной'
+    # Допишите метод
+    def create_new(self):
+        ...
 
-    def __init__(self):
-        self.dial_type = 'дисковый'
+    # Допишите метод
+    def remove_one(self):
+        ...
 
 
-# Создать объект rotary_phone.
-rotary_phone = Phone()
-# Создать объект rotary_phone_2.
-rotary_phone_2 = Phone() 
+# Пример запуска для самопроверки
+bacteria_producer = BacteriaProducer(max_bacteria=3)
+bacteria_producer.remove_one()
+bacteria_producer.create_new()
+bacteria_producer.create_new()
+bacteria_producer.create_new()
+bacteria_producer.create_new()
+bacteria_producer.remove_one()
